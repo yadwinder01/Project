@@ -162,9 +162,9 @@ if(participant1.getSize()!=0 && participant2.getSize()!=0){
     //the return value is stored in result after comparing
     int result = c1.compareTo(c2);
 
-    System.out.println(participant1.getName() + " has card with Rank : " + c1.getRank());
+    System.out.println(participant1.getName() + " has card : " + c1.getRank() + " of " + c1.getSuit());
 
-    System.out.println(participant2.getName() + " has card with Rank : " + c2.getRank());
+    System.out.println(participant2.getName() + " has card : " + c2.getRank()+ " of " + c2.getSuit());
 		
 /**
  * 

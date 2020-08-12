@@ -13,15 +13,15 @@ package ca.sheridancollege.project;
 public enum Suit 
 {
    
-    club(1), 
-    Diamond(2), 
-    Heart(3), 
-    Spade(4);
+    club("Club"), 
+    Diamond("Diamond"), 
+    Heart("Heart"), 
+    Spade("Spade");
 	
-    private final int value;
+    private final String value;
 	
 	
-    private Suit(int val)
+    private Suit(String val)
     {
 
         value = val;
@@ -29,11 +29,11 @@ public enum Suit
     }
 	
 
-    public int getValue()
-    {
-
+    @Override
+    public String toString(){
+    
         return value;
-	
+    
     }
     
 }

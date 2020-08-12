@@ -20,10 +20,10 @@ public class Card implements Comparable<Card>
     
     private final int rank;
 	
-    private final int suitType;
+    private final String suitType;
 	
 
-    public Card(int suit, int rnk)
+    public Card(String suit, int rnk)
     {
 
         suitType = suit;
@@ -42,7 +42,7 @@ public class Card implements Comparable<Card>
     
     
     
-    public int getSuit()
+    public String getSuit()
     
     {
 

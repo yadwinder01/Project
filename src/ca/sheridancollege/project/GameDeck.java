@@ -40,7 +40,7 @@ for(Suit suit : Suit.values())
 {
 
 
-    int suit_rank = suit.getValue();
+    String suit_rank = suit.toString();
 	
     
     for(int r=1;r<=13;r++)
